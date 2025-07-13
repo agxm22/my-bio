@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.category-page {
+  background: linear-gradient(to bottom, #000000, #1a0a0a);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(255, 78, 81, 0.281);
+  text-align: center;
+}
+
+/* Heading */
+.category-page h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.category-page h1 span {
+  color: #ff4e50;
+  text-shadow: 0 0 10px #ff4e50;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  color: #ffcccc;
+  text-decoration: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: rgba(255, 78, 80, 0.1);
+  border: 1px solid rgba(255, 78, 80, 0.3);
+}
+
+.back-btn i {
+  margin-right: 8px;
+}
+
+.back-btn:hover {
+  color: #ffdede;
+  transform: translateX(-5px);
+  background: rgba(255, 78, 80, 0.15);
+}
+
+/* About Section Styling */
+.about-section {
+  margin: auto;
+  border: 2px solid rgba(255, 78, 81, 0.267);
+  border-radius: 20px;
+  padding: 40px;
+  color: #ffdca8;
+  max-width: 900px;
+  box-shadow: 0 20px 50px rgba(255, 78, 80, 0.2);
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffdca8;
+}
+
+/* About List */
+.about-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(255, 78, 80, 0.1);
+  transition: 0.3s ease;
+}
+
+.about-list li:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 212, 67, 0.4);
+  box-shadow: 0 10px 30px rgba(255, 212, 67, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .category-page h1 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+}
