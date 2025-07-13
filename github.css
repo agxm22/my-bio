@@ -16,7 +16,7 @@ body {
   background: linear-gradient(to bottom, #000 0%, #1a0a1a 100%);
   border-radius: 20px;
   padding: 40px;
-  box-shadow: 0 20px 50px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(255, 255, 255, 0.24);
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .github-btn {
-  background: linear-gradient(45deg, #333, #6e6e6e);
+  background: linear-gradient(45deg, #00000077, #7e7ea3);
   color: white;
   padding: 15px 30px;
   border-radius: 40px;
